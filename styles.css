@@ -46,8 +46,7 @@ img {
     background-color:whitesmoke;
     text-align: center;
     padding: 50px;
-    margin: auto;
-    display: block;
+    display: flexbox;
 }
 
 figcaption {
@@ -55,6 +54,7 @@ figcaption {
     color: aliceblue;
     text-align: right;
     padding: 10px;
+    font-size: 1.5em;
 }
 
 footer {
@@ -64,13 +64,16 @@ footer {
 
 @media screen and (max-width: 700px) {
     body {
-        width: 100%;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .container {
         display: flex;
         flex-wrap: wrap;
-        
         background-image: none;
+        background-color: lightblue;
+        height: auto;
         
     }
     img {
@@ -78,16 +81,13 @@ footer {
         margin-right: auto;
     }
     .description {
-        width: 100%;
+       
     }
-    .header {
-        width: 100%;
-    }
-    header {
-        width: 100%;
-        color: beige;
-    }
+   
     .figcaption {
         font-size: 16px;
+    }
+    footer {
+        padding: auto;
     }
 }
