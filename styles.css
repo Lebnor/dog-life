@@ -45,18 +45,49 @@ img {
     font-size: 2em;
     background-color:whitesmoke;
     text-align: center;
-    display: block;
     padding: 50px;
+    margin: auto;
+    display: block;
 }
 
 figcaption {
     background-color: gray;
     color: aliceblue;
     text-align: right;
-    padding: 5px;
+    padding: 10px;
 }
 
 footer {
     font-size: 14px;
     padding: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        
+        background-image: none;
+        
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .description {
+        width: 100%;
+    }
+    .header {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        color: beige;
+    }
+    .figcaption {
+        font-size: 16px;
+    }
 }
