@@ -3,12 +3,13 @@ h1 {
     font-size: 50px;
 }
 html {
-    background-image: url("60b8faf1-851b-4bc0-9fe1-c981a55c4dfd.jpg");
+    
 }
 body {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("60b8faf1-851b-4bc0-9fe1-c981a55c4dfd.jpg");
 }
 .header{
     width: 100%;
