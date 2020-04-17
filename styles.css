@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+html {
+    background-image: url("60b8faf1-851b-4bc0-9fe1-c981a55c4dfd.jpg");
+}
+body {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    display: block;
+    top: 0px;
+}
+body {
+    /*background-color: lightblue;*/
+}
+img {
+   width: 50%;
+}
+.caption {
+
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;    
+}
+.first_picture {
+    width: 50%;
+}
+.second_picture {
+    width: 50%;
+}
