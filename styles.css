@@ -42,7 +42,7 @@ img {
 
 }
 .description {
-    font-size: 2em;
+    font-size: 3em;
     background-color:whitesmoke;
     text-align: center;
     padding: 50px;
@@ -81,7 +81,8 @@ footer {
         margin-right: auto;
     }
     .description {
-       
+       font-size: 2em;
+       line-height: 1.2em;
     }
    
     .figcaption {
