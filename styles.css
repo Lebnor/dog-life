@@ -17,6 +17,11 @@ body {
 #topContainer {
     background-image: url("images/paws.jpg");
 }
+
+#topContainer2 {
+    /* background-image: url("images/tissu-motifs-animal.jpg"); */
+    background-image: url("images/bones.jpg");
+}
 header {
     text-align: center;
     font-size: 60px;

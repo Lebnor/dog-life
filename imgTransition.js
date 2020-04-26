@@ -8,6 +8,11 @@ var textHeight = text.clientHeight;
 var pic1Block = document.getElementById("pic1Block");
 var topContainer = document.getElementById("topContainer");
 
+var pic2 = document.getElementById("pic2");
+var pic2Block = document.getElementById("pic2Block");
+var topContainer2 = document.getElementById("topContainer2");
+
+
 // listen for scroll event and call animate function
 document.addEventListener('scroll', animate);
 
@@ -76,8 +81,6 @@ function animate() {
         pic1.classList.remove('in');
         pic1.classList.add('in');
     } else {
-        // pic1.classList.remove('in');
-        // pic1.classList.add('hide-left');
     }
     if (isVisible(topContainer)) {
 
@@ -86,34 +89,21 @@ function animate() {
         pic1.classList.add('hide-left');
     }
 
-    // if (isVisible(pic1)) {
-    //         pic1.classList.remove('hide-left');
-    //         pic1.classList.add('in');
+    if (isVisible(pic2Block)) {
+        pic2.classList.remove('hide-left');
+        pic2.classList.remove('in');
+        pic2.classList.add('in');
+    } else {
+    }
+    if (isVisible(topContainer2)) {
 
-    // }
+    } else {
+        // pic1.classList.remove('in');
+        pic2.classList.add('hide-left');
+    }
 
 
 
-  // is element in view?
-//   if (inView(element, elementHeight)) {
-//       // element is in view, add class to element
-//     //    element.classList.add('animate');
-//       element.classList.add('in');
-//     //   element.id.remove;
-//   }
-//   if (inView(text, textHeight)) {
-//       text.classList.remove('pink');
-//       text.classList.add('fadein');
-//   } else {
-//       text.classList.add('pink');
-//   }
 
-//   if (inView(pic1, pic1Height)) {
-//       pic1.classList.remove('hide-left');
-//       pic1.classList.add('in');
-//   } else {
-//       pic1.classList.remove('in');
-//       pic1.classList.add('hide-left');
-//   }
 
 }
