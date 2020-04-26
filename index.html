@@ -1,73 +1,72 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <meta lang="hebrew">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
     <!-- bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link media="screen and (max-width:700px)" rel="stylesheet" href="mobile.css">
+    <!-- <link media="screen and (max-width:700px)" rel="stylesheet" href="mobile.css"> -->
 </head>
 
 <body>
 
-   <!-- <div class="header">
-        <h1>חיי כלב</h1>
 
-    </div>
-    -->
-    <nav class="nav">
-        
-    </nav>
-    <header>
-        חיי כלב
-    </header>
-    <div class="description">
-
-        <h3>זואי</h3>
-        <p class="">אתר זה מוקדש לזואי הכלבה. כאן תראו אותה אוכלת, משחקת, וחיה חיי כלב.</p>
-    </div>
-
-    <div class="top">
-
-        
-    <div class="container">
-        
-                <figure class="first_picture">
-                    <img src="zoey.jpg">
-                    <figcaption class="caption">
-                        זואי מחכה לאוכל
-                    </figcaption>
-                </figure>
-            
-                <figure class="second_picture">
-                    <img src="zoey-haircut.jpg">
-                    <figcaption class="caption lead">
-                        זואי מייד אחרי תספורת
-                    </figcaption>
-                </figure>
-         
-                <figure class="second_picture">
-                    <img src="zoey-resting.jpg">
-                    <figcaption class="caption lead">
-                        זואי נחה
-                    </figcaption>
-                </figure>
-        
+    <div id="topArea" class="bg-info border pt-4 pb-4 ">
+        <div class="container-fluid pt-4">
+            <div class="row align-items-center pt-5" >
+                <div class="col-12 text-center">
+                    <img id="mainPic" class="mb-4 img-fluid w-75 mx-auto col-lg-8 col-xl-6" src="images/zoey-haircut.jpg">    
+                </div>
             </div>
+        </div>
+    
+        <div class="container">
+            <div class="row">
+                <div class="text-center col  pt-2 mb-2 pb-2 bg-light">
+                   <h1 id="greet" class="typer text-primary" onclick="reAnimate()"><strong></strong></h1>
+                </div>
+            </div>
+        </div>
+    
     </div>
+
+    <div class="container bg-dark pt-5 pb-5">
+        
+        <div class="row">
+
+            
+            <div class="col-12 col-md-8 mr-auto ml-auto text-center text-white">
+                <h3>אתר זה מוקדש לזואי הכלבה. כאן תראו אותה אוכלת, משחקת, וחיה חיי כלב</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="picarea" class="content-block col-12">
+                    <p id="text">טקסט</p>
+            </div>
+        </div>
+    </div>
+
+        <div style="margin-top: 500px;">
+        </div>
+
     
     <footer>
 liel 2020
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+    <script src="imgTransition.js"></script>
 </body>
 
 
