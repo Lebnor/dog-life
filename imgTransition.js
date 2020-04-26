@@ -6,6 +6,7 @@ var pic1Height = pic1.clientHeight;
 var text = document.getElementById("headlineTxt");
 var textHeight = text.clientHeight;
 var pic1Block = document.getElementById("pic1Block");
+var topContainer = document.getElementById("topContainer");
 
 // listen for scroll event and call animate function
 document.addEventListener('scroll', animate);
@@ -72,10 +73,17 @@ function animate() {
     }
     if (isVisible(pic1Block)) {
         pic1.classList.remove('hide-left');
+        pic1.classList.remove('in');
         pic1.classList.add('in');
     } else {
         // pic1.classList.remove('in');
         // pic1.classList.add('hide-left');
+    }
+    if (isVisible(topContainer)) {
+
+    } else {
+        // pic1.classList.remove('in');
+        pic1.classList.add('hide-left');
     }
 
     // if (isVisible(pic1)) {

@@ -14,6 +14,9 @@ body {
     /* opacity: 1; */
 }
 
+#topContainer {
+    background-image: url("images/paws.jpg");
+}
 header {
     text-align: center;
     font-size: 60px;
@@ -50,7 +53,7 @@ header {
   }
 
   .headline {
-      background-color: #b44772
+      background-color: #4c00a4
       ;
   }
 
@@ -60,12 +63,14 @@ header {
   }
 
   .pink {
-      color: #b44772;
+      color: #4c00a4;
   }
 
   #picarea {
       position: sticky;
   }
+
+  
 
   .hide-left {
     -webkit-transform: translate(-3000px,0);
