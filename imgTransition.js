@@ -98,8 +98,6 @@ function animate() {
     if (isVisible(topContainer2)) {
 
     } else {
-        // pic1.classList.remove('in');
-        pic2.classList.add('hide-left');
     }
 
 
