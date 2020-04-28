@@ -66,16 +66,17 @@ function animate() {
     if (isVisible(text)) {
               text.classList.remove('pink');
       text.classList.add('fadein');
-    } else {
+    } 
+    else {
         text.classList.remove('fadein');
         text.classList.add('pink');
     }
 
-    if (isVisible(element)) {
-               element.classList.add('animate');
-      element.classList.add('in');
+    // if (isVisible(element)) {
+    //   element.classList.add('animate');
+    //     element.classList.add('in');
 
-    }
+    // }
     if (isVisible(pic1Block)) {
         pic1.classList.remove('hide-left');
         pic1.classList.remove('in');
@@ -84,20 +85,16 @@ function animate() {
     }
     if (isVisible(topContainer)) {
 
-    } else {
-        // pic1.classList.remove('in');
-        pic1.classList.add('hide-left');
     }
 
     if (isVisible(pic2Block)) {
         pic2.classList.remove('hide-left');
         pic2.classList.remove('in');
         pic2.classList.add('in');
-    } else {
-    }
+    } 
+
     if (isVisible(topContainer2)) {
 
-    } else {
     }
 
 
